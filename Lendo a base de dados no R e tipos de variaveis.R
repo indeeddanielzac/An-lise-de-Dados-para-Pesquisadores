@@ -40,7 +40,7 @@ pacman::p_load(dplyr, rstatix, ggplot2, readxl)
 # no padrão brasileiro é o ponto e vírgula ;
 # read.csv padrão eua csv2 brasileiro
 
-dados <- read.csv2("FEV.csv")
+dados <- read.csv2("bases/FEV.csv")
 
 head(dados, n = 10)
 View(dados)
